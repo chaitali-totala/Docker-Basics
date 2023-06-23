@@ -6,9 +6,9 @@ app=Flask(__name__)
 def main():
     return "welcome"
 
-@app.route('/how are you')
+@app.route('/docker/commands')
 def hello():
-    return "I am good..What about you.."
+    return "<h1>Docker Commands</h1><ul><li>docker images</li><li>docker search {image_name}</li><li>docker pull {image_name}</li><li>docker run</li>"
 
 if __name__ == "__main__":
     app.run()
