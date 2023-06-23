@@ -11,7 +11,7 @@ def hello():
     return "I am good..What about you.."
 
 @app.route('/how you doing projects')
-def hello():
+def project():
     return "Going good..What about you.."
 
     
